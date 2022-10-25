@@ -36,18 +36,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Controller\AccelerationMove.cs" />
-     <Compile Include="Assets\Scripts\Model\Player.cs" />
-     <Compile Include="Assets\Scripts\View\IHealth.cs" />
-     <Compile Include="Assets\Scripts\Controller\RotationShip.cs" />
-     <Compile Include="Assets\Scripts\View\IFire.cs" />
-     <Compile Include="Assets\Scripts\Controller\ShipWeapon.cs" />
-     <Compile Include="Assets\Scripts\View\IRotation.cs" />
-     <Compile Include="Assets\Scripts\View\IMove.cs" />
-     <Compile Include="Assets\Scripts\Controller\MoveTransform.cs" />
-     <Compile Include="Assets\Scripts\Model\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Controller\Ship.cs" />
-     <Compile Include="Assets\Scripts\Controller\HealthManager.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Bullet\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Base\GameCore.cs" />
+     <Compile Include="Assets\Scripts\Decorators\OutOfScreenTeleportDecorator.cs" />
+     <Compile Include="Assets\Scripts\Decorators\OutOfScreenDestroyDecorator.cs" />
+     <Compile Include="Assets\Scripts\Base\EngineController.cs" />
+     <Compile Include="Assets\Scripts\Base\OutOfScreenTrigger.cs" />
+     <Compile Include="Assets\Scripts\Ship\ShipKeyboardController.cs" />
+     <Compile Include="Assets\Scripts\Ship\ShipTriggerDestroyer.cs" />
+     <Compile Include="Assets\Scripts\Base\SpaceResistance.cs" />
+     <Compile Include="Assets\Scripts\Base\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\Base\ShootController.cs" />
+     <Compile Include="Assets\Scripts\Base\PooledObject.cs" />
+     <Compile Include="Assets\Scripts\Base\RotateController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
