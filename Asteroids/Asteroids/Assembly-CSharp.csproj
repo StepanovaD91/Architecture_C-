@@ -61,6 +61,21 @@
      <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\Scripts\Base\EngineController.cs" />
      <Compile Include="Assets\Scripts\Lession5\ServiceLocator\IServiceLocator.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Bridge\IAttack.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Bridge\IMove.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Bridge\MagicalAttack.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Bridge\Infantry.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Bridge\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Bridge\Example.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\IFire.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\IAmmunition.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\Example.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\ModificationWeapon.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\ModificationMuffler.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\IMuffler.cs" />
+     <Compile Include="Assets\Scripts\Lession6\Decorator\Muffler.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
